@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root * {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  color: #1b1b1b;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.2;
+  font-weight: 800;
+  color: var(--dark-green);
+}
+
+h1 {
+  font-size: clamp(1.2rem, 1.4rem + 2vw, 2rem);
+}
+
+h2 {
+  font-size: clamp(1.2rem, 1rem + 1.2vw, 1.5rem);
+}
+
+h3 {
+  font-size: clamp(1rem, 0.9rem + 0.6vw, 1.2rem);
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 0.9em;
+  }
+  h3 {
+    font-size: 0.9em;
+  }
+}
+
+a {
+  color: var(--dark-blue);
+}
+
+strong {
+  font-weight: 700;
+}

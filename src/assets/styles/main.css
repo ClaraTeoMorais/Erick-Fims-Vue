@@ -1,0 +1,25 @@
+@import '@/assets/styles/reset.css';
+@import '@/assets/styles/tipografia.css';
+@import '@/assets/styles/layout.css';
+@import '@/assets/styles/colors.css';
+@import '@/assets/styles/animations.css';
+
+/* Estilos adicionais abaixo */
+:root {
+  background-color: #f7fff9;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  display: flex;
+  flex: 1;
+  margin: 0 auto;
+}
