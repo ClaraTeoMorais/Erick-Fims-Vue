@@ -16,19 +16,19 @@ h3 {
 
 h2 {
   font-size: clamp(1.2rem, 1.4rem + 2vw, 2rem);
-  color: var(--cinza_claro);
+  color: var(--light-grey);
   /* font-size: 60px; */
   text-align: center;
 }
 
 h3 {
   font-size: clamp(1rem, 0.9rem + 0.6vw, 1.2rem);
-  color: var(--azul_escuro);
+  color: var(--dark-blue);
   margin-bottom: 0;
 }
 
 a {
-  color: var(--cinza_escuro);
+  color: var(--dark-grey);
 }
 
 p {

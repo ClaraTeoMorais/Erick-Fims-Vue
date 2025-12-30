@@ -1,7 +1,7 @@
 @import '@/assets/styles/reset.css';
-@import '@/assets/styles/tipografia.css';
+@import '@/assets/styles/typography.css';
 @import '@/assets/styles/layout.css';
-@import '@/assets/styles/cores.css';
+@import '@/assets/styles/colors.css';
 @import '@/assets/styles/animations.css';
 
 /* Estilos adicionais abaixo */
@@ -21,6 +21,6 @@ main {
 }
 
 body {
-  background-color: var(--cinza_claro);
-  background-image: url(../Imagens/background_textura.svg);
+  background-color: var(--light-grey);
+  background-image: url(../imgs/bg-texture.svg);
 }

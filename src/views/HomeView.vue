@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import Header from '@/components/layouts/Header.vue'
 </script>
 
 <template>
   <main>
+    <Header />
     <TheWelcome v-animate-on-scroll />
   </main>
 </template>
