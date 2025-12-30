@@ -8,14 +8,19 @@ html {
   scroll-behavior: smooth;
 }
 
-p {
-  line-height: 1.6;
-}
-
 ul {
   list-style: none;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
 }
 
 a {
   text-decoration: none;
+}
+
+figure {
+  margin-bottom: 0;
 }
