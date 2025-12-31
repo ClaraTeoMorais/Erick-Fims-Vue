@@ -153,7 +153,8 @@ const toggleServices = () => {
 }
 
 .nav-link,
-.trigger {
+.trigger,
+.button {
   color: var(--light-grey);
   text-decoration: none;
   font-weight: 400;

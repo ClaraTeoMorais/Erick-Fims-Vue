@@ -40,6 +40,10 @@ strong {
   font-weight: 700;
 }
 
+button {
+  font-family: 'Bellota Text', serif;
+}
+
 @media screen and (max-width: 600px) {
   p {
     font-size: 0.9em;
